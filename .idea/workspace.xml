@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d4b3b44c-87ac-4c47-9043-d52cf103f6d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.directory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirportTestTaskRenue-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLI-utility/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PackageComparator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/src/main/java/com/ykic/Couple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/src/main/java/com/ykic/FileOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/src/main/java/com/ykic/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/src/main/java/com/ykic/ReaderCSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/src/main/java/com/ykic/ReaderTXT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/src/main/java/com/ykic/SearchItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/src/main/java/com/ykic/SearchResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/src/main/java/com/ykic/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/src/main/resources/CopyOfAirports.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/src/main/resources/airports.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/src/main/resources/result1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (1)/taskFromRenue-master/src/main/resources/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/src/main/java/com/ykic/Couple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/src/main/java/com/ykic/FileOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/src/main/java/com/ykic/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/src/main/java/com/ykic/ReaderCSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/src/main/java/com/ykic/ReaderTXT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/src/main/java/com/ykic/SearchItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/src/main/java/com/ykic/SearchResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/src/main/java/com/ykic/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/src/main/resources/CopyOfAirports.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/src/main/resources/airports.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/src/main/resources/result1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (2)/taskFromRenue-master/src/main/resources/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/out/artifacts/AirportTestTaskRenue_jar/AirportTestTaskRenue.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/src/main/java/ru/emelianov/BasicTreeCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/src/main/java/ru/emelianov/CSVReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/src/main/java/ru/emelianov/ConversionData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/src/main/java/ru/emelianov/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/src/main/java/ru/emelianov/DataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/src/main/java/ru/emelianov/JSONConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/src/main/java/ru/emelianov/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/src/main/java/ru/emelianov/SearchResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/src/main/java/ru/emelianov/TreeCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/src/main/java/ru/emelianov/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/src/test/java/ru/emelianov/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/target/AirportTestTaskRenue-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/target/classes/ru/emelianov/BasicTreeCollector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/target/classes/ru/emelianov/CSVReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/target/classes/ru/emelianov/ConversionData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/target/classes/ru/emelianov/Converter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/target/classes/ru/emelianov/DataReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/target/classes/ru/emelianov/JSONConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/target/classes/ru/emelianov/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/target/classes/ru/emelianov/SearchResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/target/classes/ru/emelianov/TreeCollector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/target/classes/ru/emelianov/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/target/surefire-reports/TEST-ru.emelianov.AppTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/target/surefire-reports/ru.emelianov.AppTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/AirportTestTaskRenue-master/target/test-classes/ru/emelianov/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/untitled/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/untitled/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/untitled/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/untitled/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/untitled1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/untitled1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/untitled1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/untitled1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/untitled1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder (3)/untitled1/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder/oh-my-git-linux/oh-my-git" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New Folder/oh-my-git-linux/oh-my-git.pck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-App" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-App-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-App2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test-App3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../airports.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coded.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coded.txt.save" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphics" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../input1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo_2024-03-31_12-12-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo_2024-04-01_07-30-26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../result1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../result1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shadowsocks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shadowsocks.json.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2eyH9oeTXOgrl4AU8U35mEHDNS3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CLIUtility.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PackageComparator.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "graalvm-jdk-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/elevenqtwo/Desktop/BasaltSPO-TestApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.tools",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4b3b44c-87ac-4c47-9043-d52cf103f6d0" name="Changes" comment="" />
+      <created>1712869749331</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712869749331</updated>
+      <workItem from="1712869750337" duration="54000" />
+      <workItem from="1712907040765" duration="1198000" />
+      <workItem from="1712936184222" duration="3962000" />
+      <workItem from="1712944834621" duration="85000" />
+      <workItem from="1712945014847" duration="1678000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
