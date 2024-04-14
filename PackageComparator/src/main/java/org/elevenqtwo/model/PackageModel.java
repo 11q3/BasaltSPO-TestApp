@@ -1,26 +1,17 @@
 package org.elevenqtwo.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@Getter
+@AllArgsConstructor
 public class PackageModel {
-    public PackageModel(String name, String version) {
-        this.name = name;
-        this.version = version;
-    }
-
     private String name;
-
+    private int epoch;
     private String version;
-    public String getVersion() {
-        return version;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    @Override
-    public String toString() {
-        return "{ \"name:\"" + name + "," +
-                   "version:" + version +
-                "}\n"; //TODO remove \n
-    }
+    private String release;
+    private String arch;
+    private String distTag;
+    private int buildTime;
+    private String source;
 }

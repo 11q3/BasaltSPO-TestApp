@@ -1,5 +1,9 @@
 package org.elevenqtwo.service;
 
+import com.google.gson.Gson;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+import com.google.gson.reflect.TypeToken;
 import org.elevenqtwo.model.PackageModel;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -25,24 +29,11 @@ public class PackageFetcher {
             con.setRequestMethod("GET");
 
             try (BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()))) {
-                StringBuilder response = new StringBuilder();
-                String inputLine;
-                while ((inputLine = in.readLine()) != null) {
-                    response.append(inputLine);
-                }
+                Gson gson = new Gson();
+                JsonObject jsonObject = gson.fromJson(in, JsonObject.class);
+                JsonArray packagesArray = jsonObject.get("packages").getAsJsonArray();
 
-                JSONObject jsonResponse = new JSONObject(response.toString());
-                JSONArray packagesArray = jsonResponse.getJSONArray("packages");
-
-                for (int i = 0; i < packagesArray.length(); i++) {
-
-                    JSONObject packageObject = packagesArray.getJSONObject(i);
-
-                    String name = packageObject.getString("name");
-                    String version = packageObject.getString("version");
-
-                    packages.add(new PackageModel(name, version));
-                }
+                packages = gson.fromJson(packagesArray, new TypeToken<List<PackageModel>>() {}.getType());
             }
 
         } catch (IOException e) {

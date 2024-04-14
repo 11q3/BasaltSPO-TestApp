@@ -6,40 +6,30 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class PackageComparator {
 
     public JSONObject comparePackages(List<PackageModel> packages1, List<PackageModel> packages2) {
+        Map<String, PackageModel> packageMap1 = packages1.stream()
+                .collect(Collectors.toMap(PackageModel::getName, packageModel -> packageModel));
+
         List<PackageModel> onlyIn1 = new ArrayList<>();
         List<PackageModel> onlyIn2 = new ArrayList<>();
         List<PackageModel> greaterIn1 = new ArrayList<>();
 
-        for (PackageModel package1 : packages1) {
-            boolean found = false;
-            for (PackageModel package2 : packages2) {
-                if (package1.getName().equals(package2.getName())) {
-                    found = true;
-                    if (compareVersions(package1.getVersion(), package2.getVersion()) > 0) {
-                        greaterIn1.add(package1);
-                    }
-                    break;
-                }
-            }
-            if (!found) {
-                onlyIn1.add(package1);
-            }
-        }
-
         for (PackageModel package2 : packages2) {
-            boolean found = false;
-            for (PackageModel package1 : packages1) {
-                if (package1.getName().equals(package2.getName())) {
-                    found = true;
-                    break;
-                }
-            }
-            if (!found) {
+            PackageModel package1 = packageMap1.get(package2.getName());
+            if (package1 == null) {
                 onlyIn2.add(package2);
+            } else {
+                int comparisonResult = compareVersions(package1.getVersion(), package2.getVersion());
+                if (comparisonResult > 0) {
+                    greaterIn1.add(package1);
+                } else if (comparisonResult < 0) {
+                    onlyIn1.add(package1);
+                }
             }
         }
 
