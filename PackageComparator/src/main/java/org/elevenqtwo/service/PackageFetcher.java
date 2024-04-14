@@ -1,9 +1,8 @@
 package org.elevenqtwo.service;
 
 import com.google.gson.Gson;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonObject;
-import com.google.gson.reflect.TypeToken;
+import com.google.gson.GsonBuilder;
+import com.google.gson.stream.JsonReader;
 import org.elevenqtwo.model.PackageModel;
 
 import java.io.BufferedReader;
@@ -11,27 +10,44 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class PackageFetcher {
+    private static final Gson gson = new GsonBuilder().create();
 
-    public List<PackageModel> fetchPackages(String branch, String arch) {
-        List<PackageModel> packages = new ArrayList<>();
-        String urlString = "https://rdb.altlinux.org/api/export/branch_binary_packages/%s?arch=%s";
-        urlString = String.format(urlString, branch, arch);
+    public List<PackageModel> fetchPackages(String branch) {
+        List<PackageModel> packages = new LinkedList<>();
+        String urlString = "https://rdb.altlinux.org/api/export/branch_binary_packages/" + branch;
 
         try {
             URL url = new URL(urlString);
             HttpURLConnection con = (HttpURLConnection) url.openConnection();
             con.setRequestMethod("GET");
+            con.setRequestProperty("Connection", "Keep-Alive");
+            con.setRequestProperty("Upgrade", "h2c");
 
-            try (BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()))) {
-                Gson gson = new Gson();
-                JsonObject jsonObject = gson.fromJson(in, JsonObject.class);
-                JsonArray packagesArray = jsonObject.get("packages").getAsJsonArray();
+            try (InputStreamReader inputStreamReader = new InputStreamReader(con.getInputStream());
+                 BufferedReader reader = new BufferedReader(inputStreamReader);
+                 JsonReader jsonReader = new JsonReader(reader)) {
 
-                packages = gson.fromJson(packagesArray, new TypeToken<List<PackageModel>>() {}.getType());
+                jsonReader.beginObject();
+
+                while (jsonReader.hasNext()) {
+                    String name = jsonReader.nextName();
+                    if (name.equals("packages")) {
+                        jsonReader.beginArray();
+                        while (jsonReader.hasNext()) {
+                            PackageModel packageModel = gson.fromJson(jsonReader, PackageModel.class);
+                            packages.add(packageModel);
+                        }
+                        jsonReader.endArray();
+                    } else {
+                        jsonReader.skipValue();
+                    }
+                }
+                jsonReader.endObject();
+
             }
 
         } catch (IOException e) {

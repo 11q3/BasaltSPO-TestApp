@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b3b44c-87ac-4c47-9043-d52cf103f6d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/util/JsonWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI-utility/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CLI-utility/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PackageComparator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/model/PackageModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/model/PackageModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/service/PackageComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/service/PackageComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/service/PackageFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/service/PackageFetcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,37 +38,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CLIUtility.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.PackageComparator.executor": "Run",
-    "Application.Unnamed.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "develop",
-    "jdk.selected.JAVA_MODULE": "graalvm-jdk-17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/elevenqtwo/Desktop/BasaltSPO-TestApp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CLIUtility.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PackageComparator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;graalvm-jdk-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/elevenqtwo/Desktop/BasaltSPO-TestApp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="graalvm-jdk-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.elevenqtwo.Main" />
       <module name="PackageComparator" />
+      <option name="PROGRAM_PARAMETERS" value="sisyphus p9 " />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,7 +100,8 @@
       <workItem from="1712944834621" duration="85000" />
       <workItem from="1712945014847" duration="1678000" />
       <workItem from="1712979681392" duration="3352000" />
-      <workItem from="1713046242436" duration="21947000" />
+      <workItem from="1713046242436" duration="33232000" />
+      <workItem from="1713129291261" duration="8305000" />
     </task>
     <servers />
   </component>
@@ -115,5 +118,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="branch1Packages" />
+        <watch expression="branch1Packages" />
+        <watch expression="branch1Packages" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

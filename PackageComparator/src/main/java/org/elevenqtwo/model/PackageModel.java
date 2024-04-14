@@ -12,14 +12,14 @@ public class PackageModel {
         this.source = source;
     }
 
-    private String name;
-    private int epoch;
-    private String version;
-    private String release;
-    private String arch;
-    private String distTag;
-    private int buildTime;
-    private String source;
+    private final String name;
+    private final int epoch;
+    private final String version;
+    private final String release;
+    private final String arch;
+    private final String distTag;
+    private final int buildTime;
+    private final String source;
 
     public String getName() {
         return name;

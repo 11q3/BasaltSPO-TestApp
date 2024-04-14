@@ -8,12 +8,18 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-
 public class PackageComparator {
 
     public JSONObject comparePackages(List<PackageModel> packages1, List<PackageModel> packages2) {
         Map<String, PackageModel> packageMap1 = packages1.stream()
-                .collect(Collectors.toMap(PackageModel::getName, packageModel -> packageModel));
+                .collect(Collectors.toMap(PackageModel::getName, packageModel -> packageModel, (packageModel1, packageModel2) -> {
+                    int comparisonResult = compareVersions(packageModel1.getVersion(), packageModel2.getVersion());
+                    if (comparisonResult > 0) {
+                        return packageModel1;
+                    } else {
+                        return packageModel2;
+                    }
+                }));
 
         List<PackageModel> onlyIn1 = new ArrayList<>();
         List<PackageModel> onlyIn2 = new ArrayList<>();
@@ -42,6 +48,10 @@ public class PackageComparator {
     }
 
     private int compareVersions(String version1, String version2) {
+        if(version1 == null || version2 == null) {
+            return 0;
+        }
+
         String[] parts1 = version1.split("\\.");
         String[] parts2 = version2.split("\\.");
 
