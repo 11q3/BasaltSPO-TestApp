@@ -4,17 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.elevenqtwo</groupId>
-    <artifactId>CLI-utility</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
-
     <parent>
         <groupId>org.elevenqtwo</groupId>
         <artifactId>BasaltSPO-TestApp</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../../BasaltSPO-TestApp/pom.xml</relativePath>
     </parent>
+
+    <artifactId>CLI-utility</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -40,8 +37,6 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <addClasspath>true</addClasspath>
-                            <classpathPrefix>lib/</classpathPrefix>
                             <mainClass>org.elevenqtwo.CLIUtility</mainClass>
                         </manifest>
                     </archive>

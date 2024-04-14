@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b3b44c-87ac-4c47-9043-d52cf103f6d0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLI-utility/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CLI-utility/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PackageComparator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/model/PackageModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/model/PackageModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/service/PackageComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/service/PackageComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/service/PackageFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/service/PackageFetcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +98,7 @@
       <workItem from="1712944834621" duration="85000" />
       <workItem from="1712945014847" duration="1678000" />
       <workItem from="1712979681392" duration="3352000" />
-      <workItem from="1713046242436" duration="15460000" />
+      <workItem from="1713046242436" duration="21947000" />
     </task>
     <servers />
   </component>
