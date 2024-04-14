@@ -1,4 +1,4 @@
-package org.elevenqtwo;
+package org.elevenqtwo.service;
 
 import org.elevenqtwo.model.PackageModel;
 import org.json.JSONArray;
@@ -37,6 +37,7 @@ public class PackageFetcher {
                 for (int i = 0; i < packagesArray.length(); i++) {
 
                     JSONObject packageObject = packagesArray.getJSONObject(i);
+
                     String name = packageObject.getString("name");
                     String version = packageObject.getString("version");
 
