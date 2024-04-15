@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b3b44c-87ac-4c47-9043-d52cf103f6d0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI-utility/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CLIUtility/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI-utility/src/main/java/org/elevenqtwo/CLIUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/CLIUtility/src/main/java/org/elevenqtwo/CLIUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PackageComparator/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/dependency-reduced-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PackageComparator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/service/PackageComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/service/PackageComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/service/PackageFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/service/PackageFetcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/util/JsonWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/util/JsonWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PackageComparator/dependency-reduced-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PackageComparator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/model/PackageModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/service/PackageComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/service/PackageFetcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/util/JsonWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +118,7 @@
       <workItem from="1712979681392" duration="3352000" />
       <workItem from="1713046242436" duration="33232000" />
       <workItem from="1713129291261" duration="12275000" />
-      <workItem from="1713141860176" duration="4207000" />
+      <workItem from="1713141860176" duration="9013000" />
     </task>
     <servers />
   </component>
