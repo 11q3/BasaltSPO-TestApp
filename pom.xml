@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>PackageComparator</module>
-        <module>CLI-utility</module>
+        <module>CLIUtility</module>
     </modules>
 
 </project>

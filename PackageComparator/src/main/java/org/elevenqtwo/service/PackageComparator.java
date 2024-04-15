@@ -8,11 +8,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-
-import java.util.logging.Logger;
 public class PackageComparator {
     public JSONObject comparePackages(List<PackageModel> packages1, List<PackageModel> packages2) {
         System.out.println("Comparing packages...");
+
+        if (packages1.isEmpty() || packages2.isEmpty()) {
+            System.err.println("One of compared packages is empty");
+            return new JSONObject();
+        }
 
         Map<String, PackageModel> packageMap1 = packages1.stream()
                 .collect(Collectors.toMap(PackageModel::getName, packageModel -> packageModel, (packageModel1, packageModel2) -> {

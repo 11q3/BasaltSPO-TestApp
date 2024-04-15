@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b3b44c-87ac-4c47-9043-d52cf103f6d0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI-utility/src/main/java/org/elevenqtwo/CLIUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/CLI-utility/src/main/java/org/elevenqtwo/CLIUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLI-utility/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CLIUtility/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLI-utility/src/main/java/org/elevenqtwo/CLIUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/CLIUtility/src/main/java/org/elevenqtwo/CLIUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PackageComparator/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/dependency-reduced-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PackageComparator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/service/PackageComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/service/PackageComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/service/PackageFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/service/PackageFetcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/util/JsonWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/PackageComparator/src/main/java/org/elevenqtwo/util/JsonWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,23 +67,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager" selected="Application.CLIUtility">
+    <configuration name="CLIUtility" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.elevenqtwo.CLIUtility" />
+      <module name="CLIUtility" />
+      <option name="PROGRAM_PARAMETERS" value="p9 sisyphus $PROJECT_DIR$/.." />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="graalvm-jdk-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.elevenqtwo.Main" />
       <module name="PackageComparator" />
       <option name="PROGRAM_PARAMETERS" value="sisyphus p9 $PROJECT_DIR$/../output.json" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="org.elevenqtwo.CLIUtility" />
-      <module name="CLI-utility" />
-      <option name="PROGRAM_PARAMETERS" value="p9 sisyphus $PROJECT_DIR$/../output.json" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,7 +101,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.CLIUtility" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -114,7 +120,7 @@
       <workItem from="1712979681392" duration="3352000" />
       <workItem from="1713046242436" duration="33232000" />
       <workItem from="1713129291261" duration="12275000" />
-      <workItem from="1713141860176" duration="708000" />
+      <workItem from="1713141860176" duration="4207000" />
     </task>
     <servers />
   </component>
@@ -133,6 +139,15 @@
     </option>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CLIUtility/src/main/java/org/elevenqtwo/CLIUtility.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="branch1Packages" />
