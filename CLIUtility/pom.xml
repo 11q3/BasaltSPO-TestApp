@@ -10,7 +10,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>CLI-utility</artifactId>
+    <artifactId>CLIUtility</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
