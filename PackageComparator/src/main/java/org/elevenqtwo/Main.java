@@ -20,8 +20,10 @@ public class Main {
         PackageFetcher packageFetcher = new PackageFetcher();
         PackageComparator packageComparator = new PackageComparator();
 
-        JsonWriter.writeJSONToFile(packageComparator.comparePackages(
-                packageFetcher.fetchPackages(branch1), packageFetcher.fetchPackages(branch2)),
-                filePath);
+        JsonWriter.writeJSONToFile(
+                packageComparator.comparePackages(
+                        packageFetcher.fetchPackages(branch1),
+                        packageFetcher.fetchPackages(branch2)),
+                        filePath);
     }
 }

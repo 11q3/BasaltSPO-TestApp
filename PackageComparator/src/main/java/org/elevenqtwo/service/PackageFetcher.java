@@ -14,9 +14,11 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class PackageFetcher {
-    private static final Gson gson = new GsonBuilder().create();
+    private static final Gson GSON = new GsonBuilder().create();
 
     public List<PackageModel> fetchPackages(String branch) {
+        System.out.println("Fetching packages for branch: " + branch);
+
         List<PackageModel> packages = new LinkedList<>();
         String urlString = "https://rdb.altlinux.org/api/export/branch_binary_packages/" + branch;
 
@@ -38,7 +40,7 @@ public class PackageFetcher {
                     if (name.equals("packages")) {
                         jsonReader.beginArray();
                         while (jsonReader.hasNext()) {
-                            PackageModel packageModel = gson.fromJson(jsonReader, PackageModel.class);
+                            PackageModel packageModel = GSON.fromJson(jsonReader, PackageModel.class);
                             packages.add(packageModel);
                         }
                         jsonReader.endArray();
@@ -53,6 +55,8 @@ public class PackageFetcher {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        System.out.println("Fetched " + packages.size() + " packages for branch: " + branch);
 
         return packages;
     }

@@ -8,9 +8,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-public class PackageComparator {
 
+import java.util.logging.Logger;
+public class PackageComparator {
     public JSONObject comparePackages(List<PackageModel> packages1, List<PackageModel> packages2) {
+        System.out.println("Comparing packages...");
+
         Map<String, PackageModel> packageMap1 = packages1.stream()
                 .collect(Collectors.toMap(PackageModel::getName, packageModel -> packageModel, (packageModel1, packageModel2) -> {
                     int comparisonResult = compareVersions(packageModel1.getVersion(), packageModel2.getVersion());
@@ -43,6 +46,11 @@ public class PackageComparator {
         result.put("onlyIn1", new JSONArray(onlyIn1));
         result.put("onlyIn2", new JSONArray(onlyIn2));
         result.put("greaterIn1", new JSONArray(greaterIn1));
+
+        System.out.println("Comparison completed. Found " + onlyIn1.size() +
+                " packages only in branch 1, " + onlyIn2.size() +
+                " packages only in branch 2, and " +
+                "" + greaterIn1.size() + " packages greater in branch 1.");
 
         return result;
     }
